@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MANIPULAÇÃO DOM</title>
+  </head>
+
+  <body>
+    <div id="containerPai">
+      <header id="header">
+        <ul>
+          <li>
+            <button id="abrirMenuLateral">AbrirMenuLaterial</button>
+          </li>
+
+          <li>
+            <button id="abrirCarinho">AbrirCarinho</button>
+          </li>
+        </ul>
+      </header>
+
+      <!-- <div class="containerAnsideAndMenu"></div> -->
+
+      <aside id="menuLateral" style="left: -20%">
+        <ol>
+          <li class="obtion">
+            <a href="">Option 1</a>
+          </li>
+          <li class="obtion">
+            <a href="">Oprion 2</a>
+          </li>
+          <li class="obtion">
+            <a href="">Option 3</a>
+          </li>
+          <li class="obtion">
+            <a href="">Option 4</a>
+          </li>
+          <li class="obtion">
+            <a href="">Option 5</a>
+          </li>
+        </ol>
+      </aside>
+
+      <menu id="CarinhoCompras" style="left: 100%">
+        <span class="headerCarrinho">
+          <span>Carrinho</span>
+          <button id="ButonFecharCarinho">X</button>
+        </span>
+
+        <div class="containerPaiItemsCarinho">
+          <div class="filhoCarinho">ITEM-CARINHO</div>
+          <div class="filhoCarinho">ITEM-CARINHO</div>
+          <div class="filhoCarinho">ITEM-CARINHO</div>
+          <div class="filhoCarinho">ITEM-CARINHO</div>
+        </div>
+        <span class="footerCarinho">200$</span>
+      </menu>
+
+      <footer>foter ilustrativo</footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

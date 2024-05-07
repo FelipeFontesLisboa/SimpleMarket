@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(192, 192, 190);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+#containerPai {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(179, 138, 106);
+}
+/* .containerAnsideAndMenu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+} */
+
+/* fixed top-0  right-[-360px] bg-orange-800 h-[90vh] w-[360px] text-slate-200 z-50 
+duration-300 border-l rounded-bl-lg p-5 flex flex-col justify-between" */
+
+#menuLateral {
+  position: fixed;
+  top: ;
+  left: 0;
+  width: 360px;
+  height: 700px;
+  background-color: brown;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  animation-duration: 5s;
+}
+ol {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.obtion {
+  width: 100%;
+  background-color: aliceblue;
+  border: solid 1px;
+}
+
+#CarinhoCompras {
+  position: fixed;
+  top: ;
+  right: 0;
+  width: 360px;
+  height: 700px;
+  background-color: rgb(124, 93, 6);
+  color: #fff;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 1s;
+  animation-duration: 5s;
+}
+.headerCarrinho {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(178, 178, 179);
+  height: 30px;
+  padding: 5px;
+}
+.containerPaiItemsCarinho {
+  width: auto;
+  height: auto;
+}
+.filhoCarinho {
+  width: 250px;
+  height: 70px;
+  margin-bottom: 10px;
+  border: solid 1px black;
+  background-color: rgb(143, 143, 143);
+}
+.footerCarinho {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(143, 143, 143);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
