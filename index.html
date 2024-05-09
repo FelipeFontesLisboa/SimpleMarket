@@ -9,7 +9,7 @@
 
   <body>
     <div id="containerPai">
-      <header id="header">
+      <header id="header" style="position: fixed; top: -10%;">
         <ul>
           <li>
             <button id="abrirMenuLateral">AbrirMenuLaterial</button>
@@ -20,11 +20,19 @@
           </li>
         </ul>
       </header>
+      <div id="containerCarossel">
+          <div id="contentCarossel">
+            <img id="imgCarossel" src="./assets/img/img1.jpg" alt="">
+          </div>
+      </div>
 
       <!-- <div class="containerAnsideAndMenu"></div> -->
 
       <aside id="menuLateral" style="left: -20%">
         <ol>
+          <button style="width: 15px; right: 0px" id="fecharMenuLateral">
+            X
+          </button>
           <li class="obtion">
             <a href="">Option 1</a>
           </li>
