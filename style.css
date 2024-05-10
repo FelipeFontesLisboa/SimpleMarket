@@ -16,7 +16,7 @@ header {
   height: 70px;
   transition: 2.5s;
   animation-duration: 5s;
-  box-shadow: 10px 7px 10px  black;
+  box-shadow: 10px 7px 10px  rgb(51, 51, 51);
   z-index: 3;
 }
 #containerCarossel{
@@ -40,7 +40,7 @@ ul {
 #containerPai {
   width: 100%;
   height: 100%;
-  background-color: rgb(179, 138, 106);
+  background-color: rgb(194, 194, 192);
 }
 /* .containerAnsideAndMenu{
     display: flex;
@@ -57,7 +57,7 @@ duration-300 border-l rounded-bl-lg p-5 flex flex-col justify-between" */
   left: 0;
   width: 360px;
   height: 700px;
-  background-color: brown;
+  background-color:#949392;
   color: #fff;
   display: flex;
   text-align: center;
@@ -79,14 +79,13 @@ ol {
   background-color: aliceblue;
   border: solid 1px;
 }
-
 #CarinhoCompras {
   position: fixed;
   top: 7%;
   right: 0;
   width: 360px;
   height: 700px;
-  background-color: rgb(124, 93, 6);
+  background-color: rgb(148, 147, 146);
   color: #fff;
   display: flex;
   text-align: center;
@@ -101,7 +100,7 @@ ol {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(178, 178, 179);
+  background-color: rgb(88, 88, 88);
   height: 30px;
   padding: 5px;
 }
@@ -114,12 +113,12 @@ ol {
   height: 70px;
   margin-bottom: 10px;
   border: solid 1px black;
-  background-color: rgb(143, 143, 143);
+  background-color: rgb(88, 88, 88);
 }
 .footerCarinho {
   height: 30px;
   width: 100%;
-  background-color: rgb(143, 143, 143);
+  background-color: rgb(88, 88, 88);
 }
 
 footer {

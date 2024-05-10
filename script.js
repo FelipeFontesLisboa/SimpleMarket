@@ -1,11 +1,10 @@
 const menuLateral = document.getElementById("menuLateral");
 const buttonAbrirMenuLateral = document.getElementById("abrirMenuLateral");
-const buttonFecharMenuLateral = document.getElementById(
-  "buttonFecharMenuLateral"
-);
+const buttonFecharMenuLateral = document.getElementById("buttonFecharMenuLateral");
 const carinhoDeCompras = document.getElementById("CarinhoCompras");
 const buttonAbrirCarinho = document.getElementById("abrirCarinho");
 const buttonFecharCarrinho = document.getElementById("ButtonFecharCarinho");
+
 
 const headerEfeitoScrol = document.getElementById("header");
 window.addEventListener("load", () => {
