@@ -100,7 +100,7 @@ ol {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(161, 94, 32);
   height: 30px;
   padding: 5px;
 }
@@ -112,13 +112,13 @@ ol {
   width: 250px;
   height: 70px;
   margin-bottom: 10px;
-  border: solid 1px black;
+  border: solid 1px rgb(255, 255, 255);
   background-color: rgb(88, 88, 88);
 }
 .footerCarinho {
   height: 30px;
   width: 100%;
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(40, 104, 46);
 }
 
 footer {
